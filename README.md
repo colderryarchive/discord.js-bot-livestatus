@@ -15,7 +15,7 @@ At this point you'll be needed two things. Channel id and message id
 
 **3.** So copy the channel id where you will be making the status thing. Then paste on the code
 
-**4.** Use c!execute and copy the message embed id and paste after that paste on the code.
+**4.** Use c!execute and copy the message embed id and after that paste on the code.
 
     client.channels.cache.get("Channel ID").messages.fetch("Message ID").then(msg => {
     
