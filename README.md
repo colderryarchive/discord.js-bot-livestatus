@@ -20,6 +20,9 @@ At this point you'll be needed two things. Channel id and message id
 **4.** Use c!execute and copy the message embed id and paste after that paste on the code.
 
     client.channels.cache.get("Channel ID").messages.fetch("Message ID").then(msg => {
+    
+**5.** Put your bot token on config.json
+
 ## Things to know
 
 **1.** You must have on intents for your bot on the discord developer portal.
