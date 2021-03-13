@@ -11,8 +11,6 @@ Get your discord bot status. Whenever it goes offline it will update the message
 
     let user = guild.members.cache.get("Your Client ID") 
 
-    let status = user.presence.status
-
 At this point you'll be needed two things. Channel id and message id
 
 **3.** So copy the channel id where you will be making the status thing. Then paste on the code
